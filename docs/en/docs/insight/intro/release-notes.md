@@ -42,6 +42,7 @@ the evolution path and feature changes of each version. [Upgrade Notes](../quick
 - **Upgraded** Grafana version from 9.3.14 to 12.1.3
 
 #### Insight Agent
+
 - **Added** default image to otel Instrumentation
 - **Improved** Ignore scope data in otel event log
 - **Upgraded** helm-kubectl to 3.19.1 for CVE-2024-56171
@@ -58,6 +59,7 @@ the evolution path and feature changes of each version. [Upgrade Notes](../quick
 ### v0.39.2
 
 #### Insight Agent
+
 - **Fixed** apiserver ServiceMonitor dropping the `apiserver_request_terminations_total` metric
 - **Fixed** kube-state-metrics compatibility with DCE4 on Kubernetes 1.18.x
 - **Removed** dependency on the `kube_(.*)_labels` metric in built-in recording rules

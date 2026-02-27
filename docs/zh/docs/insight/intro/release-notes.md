@@ -7,6 +7,7 @@
 ### v0.40.1
 
 #### Insight Server
+
 - **修复** cleanJob 中 `GetGlobalClusterInfo` 被 `RunRuleController` 函数阻塞的问题
 
 ## 2025-12-31
@@ -14,6 +15,7 @@
 ### v0.40.0
 
 #### Insight Server
+
 - **新增** 为告警 `KubeSchedulerHighPodSchedulingAttempts` 和 `KubeControllerManagerHighRequestLatency` 增加 `cluster_name` 字段
 - **新增** 支持通过 spanID 查询调用链
 - **新增** 支持慢 SQL 分析（如 DMP 慢 SQL）
@@ -34,6 +36,7 @@
 - **升级** Grafana 版本从 9.3.14 至 12.1.3
 
 #### Insight Agent
+
 - **新增** 为 OTel Instrumentation 设置默认镜像
 - **优化** 在 OTel 事件日志中忽略 scope 数据
 - **升级** helm-kubectl 至 3.19.1（修复 CVE-2024-56171）
@@ -50,6 +53,7 @@
 ### v0.39.2
 
 #### Insight Agent
+
 - **修复** `apiserver` ServiceMonitor 丢失 `apiserver_request_terminations_total` 指标的问题
 - **修复** Kubernetes 1.18.x 下 DCE4 对 `kube-state-metrics` 的适配问题
 - **修复** 内置 recording rules 不再依赖 `kube_(.*)_labels` 指标

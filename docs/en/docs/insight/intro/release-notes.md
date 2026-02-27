@@ -13,6 +13,7 @@ the evolution path and feature changes of each version. [Upgrade Notes](../quick
 ### v0.40.1
 
 #### Insight Server
+
 - **Fixed** cleanJob `GetGlobalClusterInfo` block by function `RunRuleController`
 
 ## 2025-12-31
@@ -20,6 +21,7 @@ the evolution path and feature changes of each version. [Upgrade Notes](../quick
 ### v0.40.0
 
 #### Insight Server
+
 - **Added** cluster_name to alerts `KubeSchedulerHighPodSchedulingAttempts` and `KubeControllerManagerHighRequestLatency`
 - **Added** Support query span by spanID
 - **Added** Support slow sql analysis, like DMP slow sql
